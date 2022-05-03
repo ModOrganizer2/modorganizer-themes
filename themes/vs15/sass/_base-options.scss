@@ -1,6 +1,7 @@
-$tree-item-padding: 4px 0;
-$list-item-padding: 4px;
+$tree-item-padding: 0.3em 0;
+$list-item-padding: 0.3em 0;
 
 // Values bigger that 11px break column fit all text functionality
-$checkbox-width: 11px;
-$treeview-checkbox-width: 11px /* 15px */;
+$checkbox-width: 13px;
+$radio-width: 11px;
+$treeview-checkbox-width: 15px;

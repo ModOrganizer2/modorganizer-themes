@@ -4,6 +4,9 @@
 @use 'theme-dark';
 
 $color-accent: #990000;
+$color-accent-hover: $color-accent;
+$color-accent-pressed: #b30000;
+$color-slider-hover-border: #a80000;
 
 @include meta.load-css(
   'base',
@@ -12,6 +15,9 @@ $color-accent: #990000;
       meta.module-variables('theme-dark'),
       (
         'color-accent': $color-accent,
+        'color-accent-hover': $color-accent-hover,
+        'color-accent-pressed': $color-accent-pressed,
+        'color-slider-hover-border': $color-slider-hover-border
       )
     )
 );
