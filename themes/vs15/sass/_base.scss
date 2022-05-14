@@ -164,13 +164,16 @@ QAbstractItemView[filtered=true] {
   border: 2px solid #f00 !important;
 }
 
-QAbstractItemView::item {
-  background: $color-item-background;
-}
+// should be a fix for Qt6 but breaks highlighting of mods, so keeping
+// the bug for now
 
-QAbstractItemView::item:alternate {
-  background: $color-item-background-alt;
-}
+// QAbstractItemView::item {
+//   background: $color-item-background;
+// }
+
+// QAbstractItemView::item:alternate {
+//   background: $color-item-background-alt;
+// }
 
 QAbstractItemView,
 QListView,
@@ -858,7 +861,7 @@ QProgressBar {
   text-align: center;
   border-style: solid;
   border-width: 1px;
-  margin: 0 10px;
+  margin: 0px;
 }
 
 QProgressBar::chunk {
